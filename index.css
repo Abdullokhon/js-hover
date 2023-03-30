@@ -1,0 +1,29 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    position: relative;
+    background: rgba(18,253,209,1);
+    animation: color 12s infinite;
+    transition: all .5s ease;
+}
+@keyframes color {
+    0%{background-color: rgba(18,253,209,1);
+    }
+    20%{background-color: rgb(115, 167, 72);}
+    40%{background-color: rgba(253,137,76,1);}
+    50%{background-color: rgba(85,253,12,1);}
+}
+div{
+    position: absolute ;
+    height: 30px;
+    width: 30px;
+    border-radius: 20%;
+    background: rgba(253,236,215,1);transition: all .5s ease;
+}
+div:hover{
+    border-radius: 5%;
+}
